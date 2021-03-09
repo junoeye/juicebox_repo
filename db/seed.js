@@ -9,7 +9,8 @@ const {
   getAllPosts,
   createTags,
   addTagsToPost,
-  getAllTags  
+  getAllTags,
+  getUserByUsername  
 } = require('./index');
 //! /////////////////////////////////////////////
 async function dropTables() {
